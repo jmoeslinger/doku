@@ -5,7 +5,7 @@ icon: git-branch
 
 ## Konfiguration
 
-Die Kofiguration wird bei der ersten Verwendung durchgeführt.
+Die Konfiguration wird bei der ersten Verwendung durchgeführt.
 Anschließend gelten die Werte für alle neuen Projekte
 
 In der Eingabeaufforderung werden folgende Befehlen ausgeführt:
@@ -36,3 +36,13 @@ Nach der Ausführung dieser Befehle befindet sich im Benutzerprofil (im Explorer
 
 ## Allgemeines
 
+Ein Git-Repository unterscheidet grundsätzlih zwischen drei Bereichen:
+
+- `working copy`
+- `staging area`
+- `local repository`
+
+![Git](assets/basic-remote-workflow.png)
+
+Im **working copy** befinden sich alle Dateien eines Verzeichnisses (zB README.md, Bilder, etc.).
+Möchte man den Inhalt eines Ordners versionieren ("unter Git stellen"), so müssen die Dateien zur **staging area** hinzugefügt werden. Nach einem Commit werden die verwalteten Dateien in einem **repository** gespeichert.
