@@ -101,7 +101,72 @@ Bei den SSH- Schlüsseln handelt es sich um eine asymmetrische Verschlüsselung.
 
 Während der Programmierung werden fortlaufend commits erstellt.
 Diese Commits werden mitteks `git push` hinaufgeladen, falls online Änderungen in der Zwischenzeit erfolgt sind, so werden diese mittels `git pull` heruntergeladen.
- 
+ ### Remote-Repository klonen
+
+Um auf ein Remote-Repository zugreifen zu können, muss das Repository **öffentlich** sein bzw. muss man in den Einstellungen als Mitarbeitender hinzugefügt worden sein.
+
+Nach einem Klick auf den "Clone-Button" wird die SSH-URL kopiert und in der Eingabbeaufforderung wird
+
+```
+git clone git@github.com:perasser/apr-2b.git
+```
+eingefügt. Dadurch wird das Remote-Repository heruntergeladen und in einem Ordner namens *apr-2b* gespeichert. Möchte man einen anderen Ordner namens *apr-2b* gespeichert. Möchte man einen anderen Ordnernamenen nutzen. Mittels den Command 
+```
+git clone git@github.com:perasser/apr-2b.git apr2-ordner
+```
+
+### Repository löschen
+
+In GitHub können Repositorys im Settings-Bereich im Abschnitt "General" gelöscht werden.
+
+**Hinweiß:** Fehlende Berechtigung können dazu führen, dass kein Settings-Bereich verfügbar ist.
+
+### Mehrere Remote-Repositorys
+
+Bei einem Repository können  mehrere Remote-Repositorys hinzugefügt werden. Standardgemäßig erhält man  ein Remote-Repository den Namen *origin*.
+
+Das Remote-Repository wird mittels:
+
+```
+git remote add origin git@github.com:perasser/xyz.git
+```
+hinzugefügt. Ein Name (zB origin) darf nur ein einziges Mal verwendet werden. Möchte man ein zweites Remote-Repository hinzufügen, so können folgendermaßen schreiben:
+
+```
+git remote add classroom git@github.com:perasser/xyz.git
+```
+Bei `git push` muss ausgewählt werden, wohin die lokalen Commits übertragen werden.
+
+```
+git push origin main
+```
+
+bzw.
+```
+git push classroom main
+```
+ Ist nur ein Remote-Repository verbunden, so reicht die Angabe von `git push`(ohne Details). 
+**Hinweis** Dei verbundenen Remote-Repositorys können
+mittels `git remote -v` angezeigt werden.
+
+### Dateien/Ordner ausschließen
+
+Um Dateien bzw. Ordner vom Repository auszuschließen, wird eine Datei namens `.gitignore` im Repository gespeichert. In dieser Datei werden die einzele Einträge (Dateiname bzw. Ordnername) zeilenweise erstellt:
+
+Um zu Beispiel einesn Ordner namens`.bin` vom Repository auszuschließen, wird eine `gitignore`-Datei mit folgendem Inhalt erstellt:
+
+```
+bin/
+```
+Um zusätzlich auch noch eine Datei namens `geheim.txt.` auszuschließen wird folgender Inhalt in die Datei geschrieben:
+
+```
+bin/
+geheim.txt
+```
+
+
+
  ## Achtung: Fehler
 
  Im folgenden Abschnitt wird gezeigt, welche Fehlermeldung erscheint, wenn ein Repository lokal und remote mit Inhalt erstellt wird:
