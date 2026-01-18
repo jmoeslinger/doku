@@ -1,6 +1,8 @@
 ---
 icon: git-branch
+order: 9500
 ---
+
 # Arbeit mit Git
 
 ## Konfiguration
@@ -200,3 +202,45 @@ Mittels `git push` werden stets die Commit zu GitHub übertrageb. Da der SSH-Sch
 1. Der öffentliche Schlüssel diehnt zum Verschlüsseln - der private Schlüssel zur Entschlüsselung.
 2. Mit dem privaten Schlüssel kann signiert werden - mit dem öffentlichen Schlüssel kann die Signatur überprüft werden.
 3. Wird der Public-Key auf einen Server gespeichert/hinterlegt so kann eine Anmeldung auf diesen Server mit dem privaten Schlüssel erfolgen (ohne Passwort)
+
+### Verbesserung des Test vom 15.12.2025:
+#### Wir importieren das Modul 'requests', um HTTP-Anfragen an eine API zu senden
+import requests
+
+#### Eingabeaufforderung: Der Benutzer gibt eine ISBN-Nummer ein
+isbn = input('ISBN Nummer: ')
+
+#### URL wird dynamisch mit der eingegebenen ISBN zusammengesetzt
+url = f"https://apr.rasser.eu/api/v2/books/{isbn}"
+
+#### Wir senden eine GET-Anfrage an die API
+response = requests.get(url)
+
+#### Überprüfung, ob die Anfrage erfolgreich war (Statuscode 200 = OK)
+if response.status_code == 200:
+    
+#### Die Antwort wird als JSON-Daten geladen
+    data = response.json()
+    
+#### Wir greifen auf das 'book'-Objekt innerhalb der JSON-Daten zu
+    book = data['book']
+    
+#### Ausgabe von Titel und ISBN des Buches
+#### Wichtig: f-Strings mit geschweiften Klammern korrekt verwenden
+    print(f"{book['title']} ({book['isbn']})")
+    
+#### Ausgabe der Autorenliste
+    print('Autoren:')
+    
+#### Zähler für die Nummerierung der Autoren
+    num = 1
+    for author in book['authors']:
+#### Jeder Autor wird mit einer laufenden Nummer ausgegeben
+        print(f"{num}. {author}")
+        num = num + 1
+
+#### Falls die Anfrage fehlschlägt (kein Statuscode 200)
+else:
+###c# Fehlernachricht aus der JSON-Antwort auslesen
+    error = response.json()
+    print(f"Fehler: {error['message']}")
