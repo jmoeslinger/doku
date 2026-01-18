@@ -5,7 +5,7 @@ url: docs.example.com # Use your website address here
 
 start:
   # Uncomment the next line to try Retype Pro features
-  # pro: true
+   pro: true
 
 branding:
   title: Möslinger Jakub
@@ -14,6 +14,13 @@ branding:
 links:
 - text: Blog
   link: /blog
+- text: Mein GitHub
+  link: https://github.com/jmoeslinger
+
+theme: 
+  default: dark
+  toggle: true
+
 
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."

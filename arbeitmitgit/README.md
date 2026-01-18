@@ -1,6 +1,6 @@
 ---
 icon: git-branch
-order: 9500
+order: 98
 ---
 
 # Arbeit mit Git
