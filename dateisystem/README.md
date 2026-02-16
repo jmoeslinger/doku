@@ -39,4 +39,4 @@ Bei einem relativen Pfad wird Stehts vom aktuellen Verzeichnis aus in ein andere
 cd Git
 ```
 
-Wird mit `cd \Users\prasse\Git` in das Verzeichnis gewechselt, so bedeutet dies, daass ausgehend vom Rootverzeichnis in den Git-Ordner gewechselt wird - hierbei handelt es sich um einen absoluten Pfadangaben.
+Wird mit `cd \Users\smart\Git` in das Verzeichnis gewechselt, so bedeutet dies, daass ausgehend vom Rootverzeichnis in den Git-Ordner gewechselt wird - hierbei handelt es sich um einen absoluten Pfadangaben.

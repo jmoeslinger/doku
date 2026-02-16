@@ -28,3 +28,9 @@ order: 99
 | 18. Dez. 2025 | Zugriff auf Dateien, Arbeit mit neuer IDE (PHPStorm), Lizenz angefordert                                         |
 | 22. Dez. 2025 | Dokumentation mit KI, Zugriff auf Dateien                                                                        |
 | 12. Jän. 2026 | Beginn mit Godot                                                                                                 |
+| 15. Jän. 2026 | Godot                                                                                                 |
+| 19. Jän. 2026 | Godot                                                                                                 |
+| 26. Jän. 2026 | Godot                                                                                                 |
+| 29. Jän. 2026 | Godot                                                                                                 |
+| 2. Feb. 2026  | Godot                                                                                                 |
+| 16. Feb. 2026 | Einführung in C#                                                                                                 |
