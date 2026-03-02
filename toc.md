@@ -36,3 +36,4 @@ order: 99
 | 16. Feb. 2026 | Einführung in C#                                                                                                 |
 | 18. Feb. 2026 | HÜ-Besprechen und Umsetzung Godot(Signale)                                                                       |
 | 25. Feb. 2026 | Variabeln, Datentypen, Benutzereingaben und -ausgaben, Datentypen konvertieren                                   |
+| 2. März. 2026 | Datentypen konvertieren, Fehlererkennung u. -behebung, Debugging, Klassen (Methoden, Eigenschaften)              |
