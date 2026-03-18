@@ -37,3 +37,7 @@ order: 99
 | 18. Feb. 2026 | HÜ-Besprechen und Umsetzung Godot(Signale)                                                                       |
 | 25. Feb. 2026 | Variabeln, Datentypen, Benutzereingaben und -ausgaben, Datentypen konvertieren                                   |
 | 2. März. 2026 | Datentypen konvertieren, Fehlererkennung u. -behebung, Debugging, Klassen (Methoden, Eigenschaften)              |
+| 4. März. 2026 | Klassen (Methoden, Eigenschaften, Variablen), Zugriffsmodifikation                                               |
+| 11. März.2026 | Methoden, Konstruktor                                                                                            |
+| 16. März.2026 | Methoden, Konstruktor, Parameter, Übungen                                                                        |
+| 18. März.2026 | Übungsphase 10 Übungen für Methoden, Konstruktor, Parameter                                                      |
