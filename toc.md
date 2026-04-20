@@ -41,3 +41,7 @@ order: 99
 | 11. März.2026 | Methoden, Konstruktor                                                                                            |
 | 16. März.2026 | Methoden, Konstruktor, Parameter, Übungen                                                                        |
 | 18. März.2026 | Übungsphase 10 Übungen für Methoden, Konstruktor, Parameter                                                      |
+| 25. März.2026 | Methoden, Konstruktor, Parameter                                                                                 |
+| 8. April.2026 | Methoden mit Parameter                                                                                           |
+| 15. April.2026| Methoden mit/ohne Parameter                                                                                      |
+| 20. April.2026| Übungen, Zeichenkettenfunktionen, Arbeit mit der Bibliothek, Klassendiagramm                                     |
