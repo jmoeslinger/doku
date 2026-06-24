@@ -44,4 +44,15 @@ order: 99
 | 25. März.2026 | Methoden, Konstruktor, Parameter                                                                                 |
 | 8. April.2026 | Methoden mit Parameter                                                                                           |
 | 15. April.2026| Methoden mit/ohne Parameter                                                                                      |
-| 20. April.2026| Übungen, Zeichenkettenfunktionen, Arbeit mit der Bibliothek, Klassendiagramm                                     |
+| 20. April.2026| Übungen, Zeichenkettenfunktionen                                                                                 |
+| 29. April.2026| Übungen, Zeichenkettenfunktionen                                                                                 |
+| 04. Mai.2026  | Übungen, Zeichenkettenfunktionen, Methoden, Zufall, Klassenddiagramm                                             |
+| 6. Mai 2026   | Arbeit mit Bibliotheken, Klassen und Dokumentation                                                               |
+| 13. Mai 2026  | Arbeit mit Bibliotheken, Klassen und Dokumentation                                                               |
+| 18. Mai 2026  | Spieleentwicklung, Klassen, Vererbung, Vektoren und Steuerung                                                    |
+| 27. Mai 2026  | Übungsbeispiele, Check                                                                                           |
+| 2. Juni 2026  | Workshop                                                                                                         |
+| 3. Juni 2026  | Übung OOP, Check                                                                                                 |
+| 10. Juni 2026 | Klassenhierarchien, Vererbung                                                                                    |
+| 24. Juni 2026 | Klassenhierarchien, Vererbung, Übungen                                                                           |
+ 
